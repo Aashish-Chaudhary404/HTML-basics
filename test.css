@@ -1,0 +1,13 @@
+body{
+    background-color: yellow;
+}
+
+.head1{
+   
+   height: 50px;
+   width: 600px;
+   background-color: aliceblue;
+   line-height: 50px;
+   margin: auto;
+   text-align: center;
+}
