@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    height: 30vh;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+.home{
+    height: 90px;
+    width: 100px;
+    background-color: rgb(20, 198, 139);
+    color: white;
+    display: flex;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+.feature{
+    height: 90px;
+    width: 100px;
+    background-color: rgb(20, 198, 139);
+    font-family: cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border-radius: 5px 5px 5px 5px;
+}
+.Location{
+
+    height: 90px;
+    width: 100px;
+    background-color: rgb(20, 198, 139);
+    font-family: cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+     border-radius: 5px 5px 5px 5px;
+}
+
+.container2{
+    background-color: antiquewhite;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px ;
+}
+.item1{
+     height: 120px;
+    width: 150px;
+    background-color: rgb(20, 198, 139);
+    color: white;
+    display: flex;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.item2{
+     height: 120px;
+    width: 150px;
+    background-color: rgb(20, 198, 139);
+    color: white;
+    display: flex;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.item3{
+    height: 120px;
+    width: 150px;
+    background-color: rgb(20, 198, 139);
+    color: white;
+    display: flex;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
