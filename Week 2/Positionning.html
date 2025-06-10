@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Position</title>
+    <style>
+       h1{
+        margin-left: 700px;
+        
+       }
+        .container{
+            height: 100vh;
+            background-color: antiquewhite;
+            display:flex;
+        }
+
+        .item1{
+            height:100px;
+            width:100px;
+            background-color: #bda67a; 
+            margin-right: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .item2{
+            height:100px;
+            width:100px;
+            background-color: #1197f0; 
+            margin-right: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            right: 100px;
+            top: 630px;
+        }
+
+        .item3{
+            height:100px;
+            width:100px;
+            background-color: #d511c5; 
+            margin-right: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 1200px;
+        }
+
+        .item4{
+            height:100px;
+            width:100px;
+            background-color: #ec492c; 
+            margin-right: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 1100px;
+            top: 630px;
+        }
+
+        .item5{
+            height:100px;
+            width:100px;
+            background-color: #2cb5ec; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: center;
+            position:relative;
+            left: 330px;
+            
+        }
+
+        .item6{
+                font-family: cursive;
+                font-size: 20px;
+                margin-right: 200px;
+
+        }
+    </style>
+</head>
+<body>
+    <!--Day9 position property Relative-->
+    <h1>Positioning Demo</h1>
+    <div class="container">
+        <div class="item1">item1</div>
+        <div class="item2">item2</div>
+        <div class="item3">item3</div>
+         <div class="item4">item4</div>
+         <div class="item5">item5</div>
+
+         <div class="item6">All the different div(items) are placed in the corners through <br>the use of position property of CSS. Here only relative value is used.</div>
+    </div>
+</body>
+</html>

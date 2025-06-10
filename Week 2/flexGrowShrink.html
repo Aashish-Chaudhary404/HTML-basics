@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        .container{
+            display: flex;
+            height: 100vh;
+            background-color: wheat;
+            justify-content: flex-end;
+
+        }
+        .item1{
+         background-color:aquamarine ;
+         height: 100px;
+         width: 100px;
+         border: 2px solid rgb(120, 140, 170);
+         flex-shrink: 5;
+         flex-basis: auto;
+        }
+        
+        .item12{
+            background-color:aquamarine ;
+         height: 100px;
+         width: 100px;
+         border: 2px solid rgb(120, 140, 170);
+        }
+        .item13{
+            background-color:aquamarine ;
+         height: 100px;
+         width: 100px;
+         border: 2px solid rgb(120, 140, 170);
+        }
+    </style>
+</head>
+<body>
+    <!--Flex-grow, flex-shrink, flex-wrap testing-->
+
+    <div class="container">
+        <div class="item1">hello </div>
+        <div class="item12">World</div>
+        <div class="item13">Bye</div>
+    </div>
+</body>
+</html>
